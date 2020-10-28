@@ -72,7 +72,7 @@
                                     </label>
                                   </div>
                                  <div>
-                                           <input type="submit" class="btn btn-lg btn-primary   value="Register">
+                                    <input type="submit" class="btn btn-lg btn-primary mb-5 mt-4"   value="Cadastrar">
                                  </div>
                             </fieldset>
                         </form>
@@ -94,7 +94,7 @@
                                     <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password">
                                 </div>
                                 <div>
-                                    <input type="submit" class="btn btn-md" value="Sign In">
+                                    <input type="submit" class="btn btn-lg btn-primary mb-5 mt-4"   value="Entrar">
                                 </div>
                                      
                              </fieldset>
