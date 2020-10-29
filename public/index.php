@@ -22,32 +22,13 @@
     </header>
     <!-- Fim do Cabeçalho -->
     <!-- Inicio do Espaçador -->
-    <div class="medium-spacing"></div>
+    <div class="small-spacing"></div>
     <!-- Fim do Espaçador -->
     <!-- Inicio do Conteúdo principal -->
-    <main class="container-fluid">
-      <div class="container">
-      <div class="row mb-4">
-                <div class="col-md-12">
-                    <div class="card" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
-                        <div class="text-white text-center d-flex align-items-center py-5 px-4 my-5">
-                            <div>
-                                <h1 class="card-title pt-3 mb-5 font-bold"><strong>MVP</strong></h1>
-                                <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat,
-                                    laboriosam, voluptatem, optio vero odio nam sit officia accusamus
-                                    minus error nisi architecto nulla ipsum dignissimos. Odit sed qui,
-                                    dolorum!.</p>
-                                <a class="btn btn-outline-white"><i class="fa fa-clone left"></i> View project</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-      </div>
-
-      <!-- Inicio do Espaçador -->
-        <div class="medium-spacing"></div>
-      <!-- Fim do Espaçador -->
+    <main class="container-fluid ">
+      <!-- Inicio da Section Main -->
+        <?php include('components/section-main.html'); ?>
+      <!-- Fim da Section Main -->
 
       <!-- Inicio dos Cards-Teams -->
         <?php include('components/team-card.html'); ?>

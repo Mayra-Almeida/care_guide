@@ -23,7 +23,7 @@
     <!-- Fim do Cabeçalho -->
 
     <!-- Inicio do Espaçador -->
-    <div class="medium-spacing"></div>
+    <div class="long-spacing"></div>
     <!-- Fim do Espaçador -->
 
     <!-- Inicio do COnteúdo -->
