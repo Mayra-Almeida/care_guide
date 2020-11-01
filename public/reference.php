@@ -1,9 +1,9 @@
-<!doctype html>
-<html lang="pt-br">
-    <head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Projeto - MVP</title>
+    <title>Referencias - MVP</title>
     <meta name="description" content="MVP Básico de projeto da Recode Pro 2020">
     <meta name="keywords" content="MVP Básico, Recode Pro 2020">
     <meta name="author" content="Squad 9 - SP2">
@@ -14,9 +14,9 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
     crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/9fd7b899ce.js" crossorigin="anonymous" defer></script>
-    <script src="assets/scripts/function.js" crossorigin="anonymous" defer></script>
-  </head>
-  <body>
+    <script src="./scripts/script.js"></script>
+</head>
+<body>
     <!-- Inicio do Cabeçalho -->
     <header>
         <?php include('components/menu.html'); ?>
@@ -24,34 +24,43 @@
     <!-- Fim do Cabeçalho -->
 
     <!-- Inicio do Espaçador -->
-    <div class="long-spacing d-sm-none d-md-block d-none d-sm-block d-md-none d-lg-block"></div>
+    <div class="medium-spacing d-sm-none d-md-block d-none d-sm-block d-md-none d-lg-block"></div>
     <!-- Fim do Espaçador -->
 
-    <!-- Inicio do Conteúdo principal -->
-    <main class="container-fluid ">
-      <!-- Inicio da Section Main -->
-        <?php include('components/section-main.html'); ?>
-      <!-- Fim da Section Main -->
-
-      <!-- Inicio dos Cards-Teams -->
-        <?php include('components/team-card.html'); ?>
-      <!-- Fim dos Cards-Teams -->
+    <!-- Inicio do COnteúdo -->
+    <main>
+    <section>
+        <div class="container py-5">
+        <div class="row py-5">
+                <div class="col-md-6">
+                    <p class="display-4 font-weight-bold">Encontre Pessoas e grupos em</p>
+                        <p class="display-4 mb-5 font-weight-bold">São Bernardo do Campo !</p>
+                        <div class="justify-content-initial">
+                            <p class="f-16">I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        </div>
+                </div>
+                <div class="col-md-6 justify-content-center">
+                    <img class="w-100 d-sm-none d-md-block d-none d-sm-block d-md-none d-lg-block" src="https://i.ibb.co/whbmZ67/undraw-Social-media-re-w12q.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <?php include('./components/cards.html') ?>
     </main>
-    <!-- Fim do Conteúdo principal -->
-
+    <!-- Fim do Conteúdo -->
+    
     <!-- Inicio do Espaçador -->
     <div class="medium-spacing"></div>
     <!-- Fim do Espaçador -->
-    
+
     <!-- Inicio do Rodapé -->
     <footer>
         <?php include('components/footer.html'); ?>
     </footer>
     <!-- Fim do Rodapé -->
-
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
